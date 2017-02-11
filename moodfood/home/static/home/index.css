@@ -1,0 +1,120 @@
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 68.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 46.66%;}
+.col-6 {width: 0%;}
+.col-7 {width: 93.33%;}
+.col-8 {width: 56.66%;}
+.col-9 {width: 45%;}
+.col-10 {width: 53.33%;}
+.col-11 {width: 73.66%;}
+.col-12 {width: 100%;}
+
+
+.primary-nav{
+
+display:inline;
+font-family: 'Quicksand', sans-serif;
+font-size:18px;
+list-style-type: none;
+margin: 0;
+padding-top:10px;
+float:left;
+text-decoration:none;
+text-align:center;
+color:green;
+}
+
+body{
+background-color: #333;
+
+
+}
+
+.title{
+color:white;
+font-size:50px;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.aboutcontainer{
+font-family: 'Quicksand', sans-serif;
+color:#52898C;
+font-size:20px;
+text-align:center;
+}
+
+a{
+text-decoration:none;
+	border-radius: 25px;
+    background: gray;
+    width: 500px;
+    height: 450px
+	font-size: 100%;
+
+}
+/* unvisited link */
+a:link {
+    color: #01FF70
+;
+}
+
+/* visited link */
+a:visited {
+    color: #FFDC00;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.container{
+text-align:center;
+background-color:#E5AF52;
+border-radius: 20px;
+padding-top:20px;
+
+}
+.link{
+
+
+}
+footer{
+margin-top:300px;
+background-color:#E5AF52;
+color:white;
+font-size:16px;
+text-align:center;
+font-family: 'Quicksand', sans-serif;
+
+
+
+}
+
+
+/* This is for the moods.html page */
+
+.moods{
+margin-left:200px;
+margin-top:200px;
+
+}
+.instructions{
+text-align:center;
+font-size:60px;
+color:teal;
+font-family: 'Quicksand', sans-serif;
+
+}
+
+
