@@ -3,6 +3,7 @@
 
 body{
 background-color:#F0F8FF;
+
 }
 .jumbotron.text-center{
 background-color:#a0cfd4;
@@ -46,11 +47,21 @@ font-family: 'Caveat Brush', cursive;
 font-size:30px;
 
 }
+
+.figcation{
+font-family: 'Caveat Brush', cursive;
+
+}
 footer{
 text-align:center;
 font-family: 'Quicksand', sans-serif;
 background-color:#a0cfd4;
 
-
+}
+.map{
+margin-top:20px;
+float:left;
 
 }
+
+/*=============================*/

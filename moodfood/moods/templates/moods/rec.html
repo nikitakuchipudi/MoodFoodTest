@@ -1,0 +1,56 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'home/index2.css' %}" />
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <title>Eat Food Mood</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+
+
+</head>
+
+ <body>
+
+<div class="jumbotron text-center">
+<a href="/home"><img src="/static/home/images/MoodLogo.png" title="MF Logo" width="auto" height="auto"  /></a>
+  <p id="rec">Try {{rec}} !</p>
+  <div class="moods">
+                <a href="javascript:history.go(0)">Find another recommendation</a>
+                <br/>
+  				<a href="/moods">Pick another mood</a>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+<iframe
+  width="1000"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCnIVTBlXv4FvXAK0i9uSd6kpCW_T1rdRM
+    &q={{rec}}+Rochester+NY" allowfullscreen>
+</iframe>
+  </div>
+</div>
+  
+
+   
+
+​
+</body>
+
+<footer>
+	<p>@Copyright Eat Food Mood Co.</p>
+</footer>
+</html>
+​
+
