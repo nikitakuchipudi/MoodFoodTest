@@ -1,0 +1,56 @@
+
+/*#a0cfd4*/
+
+body{
+background-color:#F0F8FF;
+}
+.jumbotron.text-center{
+background-color:#a0cfd4;
+color:#297b30;
+font-family: 'Quicksand', sans-serif;
+
+
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+    text-decoration:none;
+
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: maroon;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+.moods{
+text-decoration:none;
+font-size:30px;
+border: 2px solid #E5AF52;
+border-radius: 5px;
+
+  
+ }
+h2{  
+font-family: 'Caveat Brush', cursive;
+font-size:30px;
+
+}
+footer{
+text-align:center;
+font-family: 'Quicksand', sans-serif;
+background-color:#a0cfd4;
+
+
+
+}
